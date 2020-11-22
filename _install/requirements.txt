@@ -1,0 +1,6 @@
+uuid
+db-sqlite3
+selenium
+pandas
+Jinja2
+CherryPy
