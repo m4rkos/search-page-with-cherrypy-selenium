@@ -1,0 +1,100 @@
+{% extends "layout/base.html" %}
+{% block title %} {{title}} {% endblock %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="static/css/style.css" />
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+
+<div id="carouselDarkText" class="carousel carousel-light slide" data-ride="carousel">
+    <ol class="carousel-indicators">    
+    {% for item in data.banner %}     
+        {% if loop.first %}    
+        <li data-target="#carouselDarkText" data-slide-to="{{ loop.index }}" class="active"></li>
+        {% elif loop.last %}    
+        <li data-target="#carouselDarkText" data-slide-to="{{ loop.index }}"></li>
+        {% else %}
+        <li data-target="#carouselDarkText" data-slide-to="{{ loop.index }}"></li>
+        {% endif %}        
+    {% endfor %}  
+    </ol>
+    <div class="carousel-inner">
+    {% for item in data.banner %}     
+        {% if loop.first %}
+        <div class="carousel-item active" data-interval="10000" style="background: linear-gradient(
+            rgba(0, 0, 0, 0.0), 
+            rgba(0, 0, 0, 0.7)
+          ),url('static/{{item}}');">
+            <img src="" class="d-block w-100" alt="">            
+        {% elif loop.last %}                
+        <div class="carousel-item" style="background: linear-gradient(
+            rgba(0, 0, 0, 0.0), 
+            rgba(0, 0, 0, 0.7)
+          ),url('static/{{item}}');">
+            <img src="" class="d-block w-100" alt="">            
+        {% else %}
+        <div class="carousel-item" data-interval="2000" style="background: linear-gradient(
+            rgba(0, 0, 0, 0.0), 
+            rgba(0, 0, 0, 0.7)
+          ),url('static/{{item}}');">
+            <img src="" class="d-block w-100" alt="">            
+        {% endif %}        
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{ target }}</h5>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+            </div>
+        </div>
+    {% endfor %}  
+    </div>
+    <a class="carousel-control-prev" href="#carouselDarkText" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselDarkText" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+          
+
+<div class="container-xxl">
+    <div class="row g-0">
+        <div class="col-12 padds">
+
+            <h1>{{ salutation }}: {{ target }}</h1>
+        
+            <p class="important">
+            Welcome this is a simple and awesome homepage with images gallery of <strong>{{ target }}</strong>.
+            </p>            
+            <span><b>Token:</b> {{ data.id }}</span>
+        </div>
+    </div>
+    <div class="row">
+    {% for item in data.result %}
+        {% if loop.first %}        
+            <div class="col-xs-12 col-sm-12 col-md-8 col-xl-6">
+                <img src="static/{{ item }}" class="result-img-size">        
+            </div>
+        {% else %}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+                <img src='static/{{ item }}' class="result-img-size" />
+            </div>
+        {% endif %}
+    {% else %}
+        <div class="col-12">
+            <em>not found</em>
+        </div>
+    {% endfor %}
+            
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <footer>Created on: {{ data.ct }}</footer>
+            <br>
+        </div>
+    </div>    
+</div>
+{% endblock %}

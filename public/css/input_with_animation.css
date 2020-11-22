@@ -1,0 +1,129 @@
+:root{
+    --deep: #130f40;
+    --bg1: #d1ccc0;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+body{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: var(--bg1);
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.form{
+    width: 50%;
+    position: relative;
+    height: 5rem;
+    overflow: hidden;    
+}
+
+.form input{
+    width: 100%;    
+    height: 100px;
+    color: #595f6e;
+    padding-top: 15px;
+    border: none;    
+    background-color: var(--bg1);
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;        
+    border-bottom: 1px solid black;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #5fa8d3;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name, 
+.form input:valid + .label-name .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #5fa8d3;
+}
+
+.form input:focus + .label-name::after, .form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+
+/** Brand */
+#pet-brand{
+    width: 7rem;    
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*Buttom*/
+#the-string {
+    display: none;
+}
+#generate-string, #delete-string{
+    background-color: var(--indigo);
+    color: var(--light);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+/*Text*/
+.t-center{
+    text-align: center;
+}

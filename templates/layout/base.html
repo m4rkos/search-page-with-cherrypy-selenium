@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block head %}
+    <link rel="stylesheet" href="static/css/bs5/bootstrap-grid.css" />
+    <link rel="stylesheet" href="static/css/bs5/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="static/css/bs5/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="static/css/bs5/bootstrap.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>{% block title %}{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+    
+    <div id="content">{% block content %}{% endblock %}</div>
+
+    <div id="footer">
+        {% block footer %}
+        &copy; Copyright {{ yaer }} by <a href="https://moow.com.br"><b>MOOW</b></a>.
+        {% endblock %}
+    </div>
+    {% block script %}    
+    <script src="static/js/bs5/bootstrap.js"></script>
+    <script src="static/js/bs5/bootstrap.bundle.js"></script>
+    <!-- <script src="static/js/bs5/bootstrap.bundle.js"></script> -->
+    {% endblock %}
+</body>
+</html>
+
+

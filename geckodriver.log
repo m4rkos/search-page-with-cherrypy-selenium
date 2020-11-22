@@ -1,0 +1,748 @@
+1605931561661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile0OuFYm"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605931566476	Marionette	INFO	Listening on port 53579
+1605931566905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605931582386	Marionette	INFO	Stopped listening on port 53579
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofile0OuFYm\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605931866727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileNJFZxB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605931875200	Marionette	INFO	Listening on port 54060
+1605931875578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605931884551	Marionette	INFO	Stopped listening on port 54060
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605932362270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileoXPdQ6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605932366755	Marionette	INFO	Listening on port 54522
+1605932367023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605932386095	Marionette	INFO	Stopped listening on port 54522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605933978428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileCbwjec"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605933982823	Marionette	INFO	Listening on port 55832
+1605933983172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605934000547	Marionette	INFO	Stopped listening on port 55832
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofileCbwjec\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605936871083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile97f20t"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605936878518	Marionette	INFO	Listening on port 57932
+1605936878810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605936901640	Marionette	INFO	Stopped listening on port 57930
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1605937074858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilexQ9XGg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605937079614	Marionette	INFO	Listening on port 58410
+1605937080110	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605937097849	Marionette	INFO	Stopped listening on port 58410
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605937438035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileks6neQ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605937442888	Marionette	INFO	Listening on port 58785
+1605937443272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605937459493	Marionette	INFO	Stopped listening on port 58785
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605937465675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilejUcXwn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605937469929	Marionette	INFO	Listening on port 58963
+1605937470425	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605937485707	Marionette	INFO	Stopped listening on port 58963
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605937744539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilev7w3gk"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605937749855	Marionette	INFO	Listening on port 62794
+1605937749972	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605937768847	Marionette	INFO	Stopped listening on port 62794
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605938335296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileoaa4fF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605938343032	Marionette	INFO	Listening on port 63568
+1605938343239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605938350986	Marionette	INFO	Stopped listening on port 63572
+[Parent 4408, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1605938358488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileVZkCXP"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605938365832	Marionette	INFO	Listening on port 63708
+1605938365868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605938375270	Marionette	INFO	Stopped listening on port 63702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+6: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1605938376447	Marionette	INFO	Stopped listening on port 63708
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605938383510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileweysu6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605938390040	Marionette	INFO	Listening on port 63851
+1605938390151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605938398822	Marionette	INFO	Stopped listening on port 63842
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1605938398871	Marionette	INFO	Stopped listening on port 63851
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: can't access property "docShell", this.contentWindow.top is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 22884, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1605938406608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileNjIOAI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605938413249	Marionette	INFO	Listening on port 64006
+1605938413822	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2JavaScript warning: https://duckduckgo.com/d2881.js, lineJavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605938420146	Marionette	INFO	Stopped listening on port 64006
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppJavaScript error: resource://gre/modules/Sqlite.jsm, line 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+emp\rust_mozprofileNjIOAI\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605938427890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilePEP23c"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605938435706	Marionette	INFO	Listening on port 64151
+1605938436039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1605938457925	Marionette	INFO	Stopped listening on port 64152
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ too late to send/recv, messages will be lost
+
+1605939281657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilee7b2HE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605939289030	Marionette	INFO	Listening on port 65249
+1605939289211	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015D,name=PContent::Msg_CommitWindowContextTransaction) Closed channel: cannot send/recv
+
+o-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile9R1ZfX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605939304052	Marionette	INFO	Listening on port 65376
+1605939304390	Marionette	WARN	TLS certificate errors will be ignored for this session
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Extension shutdown: webcompat@mozilla.org","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2601,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2601","resource://gre/modules/AsyncShutdown.jsm:observe:573"]},{"name":"Extension shutdown: webcompat-reporter@mozilla.org","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2601,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2601","resource://gre/modules/AsyncShutdown.jsm:observe:573"]},{"name":"Extension shutdown: screenshots@mozilla.org","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2601,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2601","resource://gre/modules/AsyncShutdown.jsm:observe:573"]},{"name":"Extension shutdown: formautofill@mozilla.org","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2601,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2601","resource://gre/modules/AsyncShutdown.jsm:observe:573"]}] Barrier: profile-change-teardown
+1606060886332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile0pXEe7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606060891310	Marionette	INFO	Listening on port 60716
+1606060891593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606060895539	Marionette	INFO	Stopped listening on port 60716
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606060902734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileENplPr"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606060906957	Marionette	INFO	Listening on port 60773
+1606060907475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606060913143	Marionette	INFO	Stopped listening on port 60773
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606060920224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilerGRzxn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606060924324	Marionette	INFO	Listening on port 60850
+1606060924364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606060929171	Marionette	INFO	Stopped listening on port 60850
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606060936366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileh9Um9k"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606060940432	Marionette	INFO	Listening on port 60913
+1606060940512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606060944422	Marionette	INFO	Stopped listening on port 60913
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606060951532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile9KV62C"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606060955686	Marionette	INFO	Listening on port 60979
+1606060955774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606060972550	Marionette	INFO	Stopped listening on port 60979
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073663723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileF03Zap"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073667468	Marionette	INFO	Listening on port 64448
+1606073667877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073670517	Marionette	INFO	Stopped listening on port 64448
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073677640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilewarPWB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073681664	Marionette	INFO	Listening on port 64509
+1606073681803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073686108	Marionette	INFO	Stopped listening on port 64509
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073693098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileZTMOBM"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073697319	Marionette	INFO	Listening on port 64574
+1606073697849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073702265	Marionette	INFO	Stopped listening on port 64574
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073709427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilerdl5hZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073713480	Marionette	INFO	Listening on port 64642
+1606073713583	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606073717348	Marionette	INFO	Stopped listening on port 64642
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073724500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile69ZkE0"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073728340	Marionette	INFO	Listening on port 64706
+1606073728651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606073743530	Marionette	INFO	Stopped listening on port 64706
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073781329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileG540wZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073786331	Marionette	INFO	Listening on port 64880
+1606073786583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073789650	Marionette	INFO	Stopped listening on port 64880
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073796771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileA5cfLK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073801145	Marionette	INFO	Listening on port 64943
+1606073801524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073807671	Marionette	INFO	Stopped listening on port 64943
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073814695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileAm8Auu"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073818864	Marionette	INFO	Listening on port 65025
+1606073818962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606073823902	Marionette	INFO	Stopped listening on port 65025
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073831046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileBOo3bc"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073835124	Marionette	INFO	Listening on port 65098
+1606073835192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606073838978	Marionette	INFO	Stopped listening on port 65098
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofileBOo3bc\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 18940, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1606073846131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileyUaB9j"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606073850654	Marionette	INFO	Listening on port 65167
+1606073850896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606073868780	Marionette	INFO	Stopped listening on port 65167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606073996568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileUWTv2e"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606074000620	Marionette	INFO	Listening on port 65378
+1606074000714	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchTelemetry: "Expected to report URI for" "https://www.bing.com/search?q=nintendo%20switch&cc=se" "with ads but couldn't find the information"
+1606074005191	Marionette	INFO	Stopped listening on port 65378
+[Parent 27328, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606074012188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilelb5NP8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606074016204	Marionette	INFO	Listening on port 65435
+1606074016341	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606074022057	Marionette	INFO	Stopped listening on port 65435
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606074029074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile4pqv5a"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606074033060	Marionette	INFO	Listening on port 65501
+1606074033229	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606074037840	Marionette	INFO	Stopped listening on port 65501
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606074045012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileRrRALs"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606074048930	Marionette	INFO	Listening on port 49296
+1606074049162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606074052735	Marionette	INFO	Stopped listening on port 49296
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606074059804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileQ6s8Si"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606074063641	Marionette	INFO	Listening on port 49363
+1606074063957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606074078247	Marionette	INFO	Stopped listening on port 49363
+[Parent 13372, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606079079455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileC6A698"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606079085398	Marionette	INFO	Listening on port 51570
+1606079085934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606079090738	Marionette	INFO	Stopped listening on port 51570
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606079098617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileuXyOc7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606079104254	Marionette	INFO	Listening on port 51633
+1606079104453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606079111370	Marionette	INFO	Stopped listening on port 51633
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606079118675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilezOEW8B"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606079124271	Marionette	INFO	Listening on port 51696
+1606079124572	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606079131676	Marionette	INFO	Stopped listening on port 51696
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606079139800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilew4c1bu"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606079147460	Marionette	INFO	Listening on port 51762
+1606079147929	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606079157145	Marionette	INFO	Stopped listening on port 51762
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofilew4c1bu\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606079165725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilejnKt0w"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606079171369	Marionette	INFO	Listening on port 51835
+1606079171510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606079190421	Marionette	INFO	Stopped listening on port 51835
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1606081542298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilecAkHxA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081548412	Marionette	INFO	Listening on port 53230
+1606081548757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081554704	Marionette	INFO	Stopped listening on port 53230
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081562720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile3zPJWC"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081568372	Marionette	INFO	Listening on port 53294
+1606081568623	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081576335	Marionette	INFO	Stopped listening on port 53294
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081583882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofiles5IT6d"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081591126	Marionette	INFO	Listening on port 53355
+1606081591267	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081599082	Marionette	INFO	Stopped listening on port 53355
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081607242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile7LQDkq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081613663	Marionette	INFO	Listening on port 53422
+1606081614247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606081620311	Marionette	INFO	Stopped listening on port 53422
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofile7LQDkq\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081628558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileMREFJ8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081635192	Marionette	INFO	Listening on port 53496
+1606081635310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606081667205	Marionette	INFO	Stopped listening on port 53496
+1606081813814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilejUKgR1"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081819963	Marionette	INFO	Listening on port 53708
+1606081820097	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081827934	Marionette	INFO	Stopped listening on port 53708
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 11448, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1606081835884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofile8ixBkG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081841649	Marionette	INFO	Listening on port 53766
+1606081841739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081850693	Marionette	INFO	Stopped listening on port 53766
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081858375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilehk9jRZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081864720	Marionette	INFO	Listening on port 53830
+1606081864969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606081874443	Marionette	INFO	Stopped listening on port 53830
+1606081882001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofilez5HUcc"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081889584	Marionette	INFO	Listening on port 53902
+1606081889758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606081897928	Marionette	INFO	Stopped listening on port 53902
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 716: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606081905336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marcos\\AppData\\Local\\Temp\\rust_mozprofileniRDxX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606081911699	Marionette	INFO	Listening on port 53965
+1606081911793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2881.js, line 1: unreachable code after return statement
+1606081933095	Marionette	INFO	Stopped listening on port 53965
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\marcos\AppData\Local\Temp\rust_mozprofileniRDxX\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

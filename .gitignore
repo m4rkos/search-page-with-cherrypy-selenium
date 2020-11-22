@@ -1,0 +1,5 @@
+public/data/*
+db/*
+.vscode
+__pycache__
+old

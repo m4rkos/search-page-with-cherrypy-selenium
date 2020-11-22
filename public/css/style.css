@@ -1,0 +1,24 @@
+body {
+    /*background-color: #b71540;*/
+    margin: 0;
+    padding: 0;
+}
+
+#the-string {
+    display: none;
+}
+.result-img-size{
+    width: 100%;
+    max-width: 500px;
+    padding-bottom: 0.9rem;
+}
+.carousel-item img{
+    height: 50vh;
+}
+.padds{
+    padding-top: 2rem;
+    padding-bottom: 2.4rem;
+}
+/* #carouselDarkText{    
+    border-bottom: 5px solid #fff;
+} */
