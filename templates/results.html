@@ -72,15 +72,15 @@
             <span><b>Token:</b> {{ data.id }}</span>
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="grid">
     {% for item in data.result %}
         {% if loop.first %}        
             <div class="col-xs-12 col-sm-12 col-md-8 col-xl-6">
-                <img src="static/{{ item }}" class="result-img-size">        
+                <a href="static/{{ item }}" target="_blank"><img src="static/{{ item }}" class="result-img-size"></a>        
             </div>
         {% else %}
             <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
-                <img src='static/{{ item }}' class="result-img-size" />
+                <a href="static/{{ item }}" target="_blank"><img src='static/{{ item }}' class="result-img-size" /></a>
             </div>
         {% endif %}
     {% else %}
@@ -97,4 +97,10 @@
         </div>
     </div>    
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+{% endblock %}
+
+{% block script %}
+    {{ super() }}
+    <script src="static/js/tools.js"></script>
 {% endblock %}

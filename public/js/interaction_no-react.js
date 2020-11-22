@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#generate-string").click(function(e) {
         $("#generate-string").hide();
         $("#the-string").html(`
-            <img src="static/img/lSUb1T4YW1td0UskwsGZ1w.gif" width="188" height="131">
+            <img src="static/img/lSUb1T4YW1td0UskwsGZ1w.gif" width="130" height="131">
             <br>
             <p class="t-center">searching ...</p>`).show();
         $.post("/generator", {"search_query": $("input[name='search_query']").val()})

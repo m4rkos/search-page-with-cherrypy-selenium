@@ -18,8 +18,8 @@ class StringGenerator(object):
         return tmpl.render(title='Search Data')
 
     @cherrypy.expose
-    def jinja(self, id=1):
-        tmpl = env.get_template('jinja.html')
+    def info(self, id=1):
+        tmpl = env.get_template('results.html')
         y = datetime.datetime.now().year
 
         t = Tools()
