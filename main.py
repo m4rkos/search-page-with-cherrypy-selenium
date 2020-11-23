@@ -18,7 +18,7 @@ class StringGenerator(object):
         return tmpl.render(title='Search Data')
 
     @cherrypy.expose
-    def info(self, id=1):
+    def result(self, id=1):
         tmpl = env.get_template('results.html')
         y = datetime.datetime.now().year
 
@@ -66,16 +66,6 @@ class StringGenerator(object):
 
     @cherrypy.expose
     def data(self, length=0):
-
-        # images = []
-        # folder = './public/data/fernandinha_fernandes/images/DuckDuckGo/'
-        # for filename in os.listdir(folder):
-        #     img = cv2.imread(os.path.join(folder,filename))
-        #     if img is not None:
-        #         images.append(img)
-
-        # return images
-
         return open('./template/result-images.html')
 
 
@@ -89,7 +79,7 @@ class StringGeneratorWebService(object):
     def POST(self, search_query):                
         
         t = Tools()        
-        t.mainContent(search_query)
+        #t.mainContent(search_query)
         ret = t.mainImages(search_query)
         
         cherrypy.session['mystring'] = ret
