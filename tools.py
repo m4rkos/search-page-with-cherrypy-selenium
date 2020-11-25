@@ -282,11 +282,16 @@ class Tools:
             file.close()        
         return path
 
-    def select_search(self, id=1):
+    def select_search(self, id=0):
         conn = self.db()        
         c = conn.cursor()
-        c.execute(f"SELECT * FROM results_data_to_render WHERE ID = {id}")        
-        res = c.fetchone()        
+
+        if(id == 0):
+            c.execute(f"SELECT * FROM results_data_to_render")        
+            res = c.fetchall()        
+        else:
+            c.execute(f"SELECT * FROM results_data_to_render WHERE ID = {id}")        
+            res = c.fetchone()        
         
         conn.commit()        
         conn.close()

@@ -11,6 +11,20 @@ $(document).ready(function() {
             $("#the-string").html(`<h3>Ok <span id="search-name"></span></h3>`);
             $("span#search-name").text(string);
             $("input[name='search_query']").val('');
+            
+            fetch("/generator?type=1", {
+                "method": "GET", "headers": {}
+            })
+            .then(response => { return response.text()
+                .then(text => {
+                    document.querySelector("#results").innerHTML = text
+                    console.log(response);
+                })                
+            })
+            .catch(err => {
+                console.error(err);
+            });                
+            
             //$("#the-string input").val(string);
             $("#generate-string").show();
             setTimeout(function() {

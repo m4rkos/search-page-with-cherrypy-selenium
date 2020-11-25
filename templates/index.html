@@ -11,7 +11,12 @@
     <body>
         
         <img src="static/img/MkMzjPIFpv6XjTRI.gif" alt="pet" id="pet-brand">
+        {% if msg == None %}
         <h1>Moow <strong>Search Images</strong></h1>
+        {% else %}
+        <h1><strong>{{ msg }}</strong>, please type something bellow</h1>
+        {% endif %}        
+        
         <div class="form">
             <input type="text" id="name" name="search_query" autocomplete="off" required />
             <label for="name" class="label-name">
@@ -22,7 +27,10 @@
         <div id="the-string">            
         </div>
 
-
+        {% if res != 0 %}
+        <h2><a href="/result" class="link-simple" target="_blank"><i class="fas fa-database"></i> Click here to see all of <b id="results">{{ res }}</b> Results</a></h2>
+        {% endif %}
+        
         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="static/js/interaction_no-react.js" >
         

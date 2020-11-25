@@ -1,0 +1,88 @@
+{% extends "layout/base.html" %}
+{% block title %} {{title}} {% endblock %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="static/css/style.css" />
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+
+<div class="container-xxl">
+    <div class="row g-0">
+        <div class="col-12 padds">
+
+            <h1>{{ salutation }} <strong>{{ target }}</strong></h1>
+        
+            <p class="important">
+            This is the gallery of all results found, please click one to open!
+            </p>            
+            <span><b>Date access:</b> {{ data.now }}</span>
+        </div>
+    </div>
+
+    <div class="row" id="grid">
+    {% for item in data %}
+        {% if loop.first %}        
+            <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6">
+                <a href="?id={{ item.id }}" target="_blank">
+                <figure class="figure">
+                    <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
+                    <figcaption class="figure-caption">
+                        <h4>{{ item.name }}</h4>
+                        <article>
+                            Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
+                            Rub face on owner my left donut is missing, as is my right please let me outside pouty face yay! wait, 
+                            it’s cold out please let me inside pouty face oh, thank you rub against mommy’s leg oh it looks so nice out, 
+                            please let me outside again the neighbor cat was mean to me please let me back inside destroy house in 5 seconds. 
+                            Sleep on keyboard i’m so hungry i’m so hungry but ew not for that scratch leg; meow for can opener to feed me present belly, 
+                            scratch hand when stroked play riveting piece on synthesizer keyboard. Burrow under covers.
+                        </article>
+                        <p class="text-right">{{ item.ct }}</p>
+                    </figcaption>
+                </figure>
+                </a>        
+            </div>
+        {% else %}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+                <a href="?id={{ item.id }}" target="_blank">
+                    <figure class="figure">
+                        <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
+                        <figcaption class="figure-caption">
+                            <h4>{{ item.name }}</h4>
+                            <article>
+                                Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
+                                Rub face on owner my left donut is missing, as is my right please let me outside pouty face yay! wait, 
+                                it’s cold out please let me inside pouty face oh, thank you rub against mommy’s leg oh it looks so nice out, 
+                                please let me outside again the neighbor cat was mean to me please let me back inside destroy house in 5 seconds. 
+                                Sleep on keyboard i’m so hungry i’m so hungry but ew not for that scratch leg; meow for can opener to feed me present belly, 
+                                scratch hand when stroked play riveting piece on synthesizer keyboard. Burrow under covers.
+                            </article>
+                            <p class="text-right">{{ item.ct }}</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        {% endif %}
+    {% else %}
+        <div class="col-12">
+            <em>not found</em>
+        </div>
+    {% endfor %}
+            
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <footer>Created on: {{ now }}</footer>
+            <br>
+        </div>
+    </div>    
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+{% endblock %}
+
+{% block script %}
+    {{ super() }}
+    <script src="static/js/tools.js"></script>
+{% endblock %}

@@ -24,6 +24,31 @@
     --dark: #343a40;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    font-weight: 300;
+}
+h1 strong{
+    font-weight: 800;
+}
+b#results{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+h2 .link-simple{
+    font-size: 1rem;
+}
+
+#the-string p.t-center{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
 body{
     height: 60vh;
     display: flex;
@@ -126,4 +151,14 @@ input:focus, textarea:focus, select:focus{
 /*Text*/
 .t-center{
     text-align: center;
+}
+
+/*Links*/
+h2 .link-simple{
+    text-decoration: none;    
+    outline: none;
+    color: var(--dark);
+    position: absolute;
+    left: 1.8rem;
+    bottom: 1.8rem;
 }

@@ -13,68 +13,117 @@ env = Environment(loader=FileSystemLoader('templates'))
 
 class StringGenerator(object):
     @cherrypy.expose
-    def index(self):
+    def index(self, report='y'):
         tmpl = env.get_template('index.html')
-        return tmpl.render(title='Search Data')
-
-    @cherrypy.expose
-    def result(self, id=1):
-        tmpl = env.get_template('results.html')
-        y = datetime.datetime.now().year
+        msg = None
 
         t = Tools()
-        r = t.select_search(id)
+        r = t.select_search(0)
 
-        if(r == None):
-            raise cherrypy.HTTPRedirect('/', 301)
-        
-        images = []
-        banner = []
+        res = 0
 
-        i = 0
-        while i < r[7]:
-            images.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')
+        if(r != None):
+            res = len(r)
 
-            if i < 3:
-                banner.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')                                
+        if(report != 'y'):
+            msg = 'Not found'
+        return tmpl.render(title='Search Data', msg=msg, res=res)
 
-            i += 1
-            pass        
+    @cherrypy.expose
+    def result(self, id=0):     
+        y = datetime.datetime.now()
+        t = Tools()
+        if(int(id) > 0):
+            tmpl = env.get_template('results.html')
+            
+            r = t.select_search(id)
 
-        data = {
-            'search':r[2],
-            'id':r[1],
-            'banner': banner,
-            'result': images,
-            'path': r[5],
-            'name': r[3],
-            'ct': r[8]
-        }
-        #print(data)
+            if(r == None):
+                raise cherrypy.HTTPRedirect('/', 301)
+            
+            images = []
+            banner = []
 
-        return tmpl.render(
-            title=f'Results about {r[2]}',
-            salutation='About', 
-            target=r[2],
-            yaer=y,
-            data=data
-        )
+            i = 0
+            while i < r[7]:
+                images.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')
+
+                if i < 5:
+                    banner.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')                                
+
+                i += 1
+                pass        
+
+            data = {
+                'search':r[2],
+                'id':r[1],
+                'banner': banner,
+                'result': images,
+                'path': r[5],
+                'name': r[3],
+                'ct': r[8]
+            }
+
+            return tmpl.render(
+                title=f'Results about {r[2]}',
+                salutation='About', 
+                target=r[2],
+                yaer=y.year,
+                data=data
+            )
+
+        else:
+            tmpl = env.get_template('results-all.html')
+            r = t.select_search(id)
+
+            if(r == None):
+                raise cherrypy.HTTPRedirect('/?report=not', 301)
+
+            data = []
+
+            i = 0
+            while i < len(r):
+
+                data.insert(i, {
+                    'id': r[i][0],
+                    'name': r[i][2],
+                    'img': f'data/{r[i][3]}/images/{r[i][6]}/{r[i][3]}_0.jpg',
+                    'ct': r[i][8]
+                })
+
+                i += 1
+                pass     
+
+            return tmpl.render(
+                title=f'Results about all searches',
+                salutation='Gallery of', 
+                target='All results searched',
+                yaer=y.year,
+                now=y,
+                data=data
+            )
 
     @cherrypy.expose
     def drag(self, length=0):
         return open('./templates/drag-and-drop.html')
-
-    @cherrypy.expose
-    def data(self, length=0):
-        return open('./template/result-images.html')
 
 
 @cherrypy.expose
 class StringGeneratorWebService(object):
 
     @cherrypy.tools.accept(media='text/plain')
-    def GET(self):
-        return cherrypy.session['mystring']
+    def GET(self, type = ''):
+        if(type != ''):
+            t = Tools()
+            r = t.select_search(0)
+            res = 0
+            if(r != None):
+                res = len(r)
+
+            return str(res)
+            
+        else:
+            return cherrypy.session['mystring']
 
     def POST(self, search_query):                
         
