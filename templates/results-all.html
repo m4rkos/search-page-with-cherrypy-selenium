@@ -25,10 +25,11 @@
     <div class="row" id="grid">
     {% for item in data %}
         {% if loop.first %}        
-            <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 fig">
+                <button onclick="remove({{item.id}})"><i class="fas fa-times"></i></button>
                 <a href="?id={{ item.id }}" target="_blank">
                 <figure class="figure">
-                    <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
+                    <img src="static/{{ item.img }}" class="figure-img img-fluid result-img-size rounded" alt="{{ item.name }}">
                     <figcaption class="figure-caption">
                         <h4>{{ item.name }}</h4>
                         <article>
@@ -45,7 +46,8 @@
                 </a>        
             </div>
         {% else %}
-            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3 fig">
+                <button onclick="remove({{item.id}})"><i class="fas fa-times"></i></button>
                 <a href="?id={{ item.id }}" target="_blank">
                     <figure class="figure">
                         <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
@@ -85,4 +87,18 @@
 {% block script %}
     {{ super() }}
     <script src="static/js/tools.js"></script>
+    <script>
+        function remove(id) {            
+            fetch(`/generator?key=${id}`, {
+                "method": "DELETE", "headers": {}
+            })
+            .then((ret) => {
+                return ret.text();
+            })
+            .then((data) => {                
+                console.log(data);
+                location.reload();
+            });
+        }
+    </script>
 {% endblock %}

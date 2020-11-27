@@ -298,6 +298,21 @@ class Tools:
 
         return res
     
+    def delete_search(self, id=0):
+        conn = self.db()        
+        c = conn.cursor()
+        res = None
+
+        if(int(id) > 0):
+            c.execute(f"DELETE FROM results_data_to_render WHERE ID = {id}")        
+            conn.commit()        
+            conn.close()
+            res = 1
+        else:
+            res = 0        
+
+        return res
+
     def sqliteUpdateSaveSearch(self, idf, res, tbl):
         conn = self.db()
         c = conn.cursor()

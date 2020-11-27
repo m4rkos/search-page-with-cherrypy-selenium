@@ -35,7 +35,7 @@ body {
 }
 .result-img-size{
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     margin-bottom: 1.6rem;    
 }
 .carousel-item img{
@@ -45,8 +45,22 @@ body {
     padding-top: 2rem;
     padding-bottom: 2.4rem;
 }
+#grid div.fig{
+    position: relative;
+}
 #grid img{
     box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.1);
+}
+
+#grid div.fig button{
+    position: absolute;
+    right: -3px;
+    top: -10px;
+    border: none;
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 50px;
+    box-shadow: 0.4px 1.4px 1.6px 2px rgba(0,0,0,0.1);
 }
 /* #carouselDarkText{    
     border-bottom: 5px solid #fff;

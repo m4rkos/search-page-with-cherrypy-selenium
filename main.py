@@ -1,5 +1,4 @@
 import os, os.path, sys
-import cv2
 import random
 import string
 import datetime
@@ -139,8 +138,19 @@ class StringGeneratorWebService(object):
     # def PUT(self, another_string):
     #     cherrypy.session['mystring'] = another_string
 
-    # def DELETE(self):
-    #     cherrypy.session.pop('mystring', None)
+    def DELETE(self, key=0):
+        if(key != '' and int(key) > 0):
+            t = Tools()
+            r = t.delete_search(key)
+            res = 0
+            if(r != None):
+                res = r
+
+            return str(res)
+
+        else:
+            #cherrypy.session.pop('mystring', None)
+            return None        
 
 
 if __name__ == '__main__':
