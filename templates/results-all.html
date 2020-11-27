@@ -26,7 +26,7 @@
     {% for item in data %}
         {% if loop.first %}        
             <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 fig">
-                <button onclick="remove({{item.id}})"><i class="fas fa-times"></i></button>
+                <button onclick="remove(this)" value="{{item.id}}"><i class="fas fa-times"></i></button>
                 <a href="?id={{ item.id }}" target="_blank">
                 <figure class="figure">
                     <img src="static/{{ item.img }}" class="figure-img img-fluid result-img-size rounded" alt="{{ item.name }}">
@@ -47,7 +47,7 @@
             </div>
         {% else %}
             <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3 fig">
-                <button onclick="remove({{item.id}})"><i class="fas fa-times"></i></button>
+                <button onclick="remove(this)" value="{{item.id}}"><i class="fas fa-times"></i></button>
                 <a href="?id={{ item.id }}" target="_blank">
                     <figure class="figure">
                         <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
@@ -88,7 +88,8 @@
     {{ super() }}
     <script src="static/js/tools.js"></script>
     <script>
-        function remove(id) {            
+        function remove(val) {                        
+            let id = val.value;
             fetch(`/generator?key=${id}`, {
                 "method": "DELETE", "headers": {}
             })
