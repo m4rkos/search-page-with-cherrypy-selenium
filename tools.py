@@ -5,6 +5,7 @@ import datetime
 import time
 import sqlite3
 import urllib.request
+import shutil
 
 class Tools:
 
@@ -298,13 +299,17 @@ class Tools:
 
         return res
     
-    def delete_search(self, id=0):
-        conn = self.db()        
-        c = conn.cursor()
+    def delete_search(self, id=0):        
         res = None
-
         if(int(id) > 0):
+            path = self.select_search(id)
+            if(path[5] != ''):                
+                shutil.rmtree(f"public/data/{path[3]}", ignore_errors=True)                
+
+            conn = self.db()        
+            c = conn.cursor()
             c.execute(f"DELETE FROM results_data_to_render WHERE ID = {id}")        
+
             conn.commit()        
             conn.close()
             res = 1
