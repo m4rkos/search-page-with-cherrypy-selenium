@@ -52,16 +52,21 @@ class Tools:
         print('\nSearching...\n')
         url = [            
             'https://www.bing.com/images/search?q=%s&first=1&scenario=ImageBasicHover',
-            'https://duckduckgo.com/?q=%s&t=h_&iar=images&iax=images&ia=images&kp=-2'            
+            'https://duckduckgo.com/?q=%s&t=h_&iar=images&iax=images&ia=images&kp=-2',
+            'https://duckduckgo.com/?q=%s&t=h_&ia=web&kp=-2'           
         ]
         self.downloadImages(url[1], 'd', name, idf)
 
+        resume = self.searchResume(name, url[2])
+        if(resume != ''):
+            self.update_search_resume(idf, resume, 'resume')
+        
         return f"Done: {some_string}"
     
     
     def engine(self, url, t, name, idf):
         
-        browser_core = webdriver.Firefox(executable_path=r'./geckodriver.exe')
+        browser_core = webdriver.Firefox(executable_path=r'./geckodriver')
         browser_core.minimize_window()
                 
         if t == 'b': 
@@ -183,9 +188,21 @@ class Tools:
             browser_core.quit() # -- Close window
             time.sleep(3)
 
+    def searchResume(self, search, url):
+        browser_core = webdriver.Firefox(executable_path=r'./geckodriver')
+        browser_core.minimize_window()
+
+        browser_core.get(url % search)
+        
+        res_items = browser_core.find_element_by_css_selector('.module-slot div.module__body.js-about-item .module__text').text
+
+        browser_core.quit() # -- Close window
+        return res_items
+        
+
 
     def downloadImages(self, url, t, name, idf):
-        browser_core = webdriver.Firefox(executable_path=r'./geckodriver.exe')
+        browser_core = webdriver.Firefox(executable_path=r'./geckodriver')
         browser_core.minimize_window()
                 
         if t == 'b': 
@@ -266,7 +283,54 @@ class Tools:
 
     # --- DB
     def db(self):
-        return sqlite3.connect('./db/finder.db')
+        return sqlite3.connect('./db/finder_test.db')
+
+    def create_tables(self):
+        conn = self.db()
+        c = conn.cursor()
+        
+        c.execute('''CREATE TABLE IF NOT EXISTS results_data_to_render
+                    (
+                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
+                        ID_search TEXT NOT NULL UNIQUE,
+                        title VARCHAR(255) NULL,                         
+                        description TEXT NULL,
+                        resume TEXT NULL,
+                        url TEXT NULL,                        
+                        folder NVARCHAR(100), 
+                        engine NCHAR(55), 
+                        amount_results INTEGER DEFAULT 0, 
+                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
+                    )''')
+
+        c.execute('''CREATE TABLE IF NOT EXISTS results_data
+                    (
+                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
+                        ID_search TEXT NOT NULL,
+                        title VARCHAR(255) NULL,                         
+                        description TEXT NULL,
+                        url TEXT NULL,
+                        screen_shot BLOB,
+                        folder NVARCHAR(100),
+                        engine NCHAR(55),                        
+                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
+                    )''')
+
+        c.execute('''CREATE TABLE IF NOT EXISTS searching_for
+                    (
+                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
+                        ID_search TEXT NOT NULL UNIQUE,
+                        search VARCHAR(255) NOT NULL,
+                        count_bing INTEGER NULL,
+                        count_google INTEGER NULL,
+                        count_yahoo INTEGER NULL,
+                        count_duck_duck_go INTEGER NULL,
+                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
+                    )''')
+        
+        conn.commit()        
+        conn.close()
+
 
     @staticmethod
     def save_html(body, path_dir, t):
@@ -284,6 +348,9 @@ class Tools:
         return path
 
     def select_search(self, id=0):
+
+        self.create_tables()
+
         conn = self.db()        
         c = conn.cursor()
 
@@ -318,6 +385,15 @@ class Tools:
 
         return res
 
+    def update_search_resume(self, idf, res, col):
+        conn = self.db()
+        c = conn.cursor()
+        
+        c.execute(f"UPDATE results_data_to_render SET {col} = '{res}' WHERE ID_search = '{idf}' ")
+        
+        conn.commit()        
+        conn.close()
+
     def sqliteUpdateSaveSearch(self, idf, res, tbl):
         conn = self.db()
         c = conn.cursor()
@@ -334,18 +410,6 @@ class Tools:
     def sqliteSaveSearch(self, idf, search):
         conn = self.db()
         c = conn.cursor()
-        
-        c.execute('''CREATE TABLE IF NOT EXISTS searching_for
-                    (
-                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
-                        ID_search TEXT NOT NULL UNIQUE,
-                        search VARCHAR(255) NOT NULL,
-                        count_bing INTEGER NULL,
-                        count_google INTEGER NULL,
-                        count_yahoo INTEGER NULL,
-                        count_duck_duck_go INTEGER NULL,
-                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
-                    )''')
                 
         c.execute(f"INSERT INTO searching_for (ID_search, search) VALUES ('{idf}', '{search}')")
         
@@ -354,20 +418,7 @@ class Tools:
     
     def sqliteSaveRes(self, data):
         conn = self.db()
-        c = conn.cursor()
-        
-        c.execute('''CREATE TABLE IF NOT EXISTS results_data
-                    (
-                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
-                        ID_search TEXT NOT NULL,
-                        title VARCHAR(255) NULL,                         
-                        description TEXT NULL,
-                        url TEXT NULL,
-                        screen_shot BLOB,
-                        folder NVARCHAR(100),
-                        engine NCHAR(55),                        
-                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
-                    )''')
+        c = conn.cursor()        
         
         # c.execute(f"INSERT INTO results (ID_search, title, description, url, screen_shot, folder, engine) VALUES ('{data['id']}', '{data['title']}', '{data['description']}', '{data['url']}', '{data['screen_shot']}', '{data['folder']}', '{data['engine']}' )")
         c.execute(f"INSERT INTO results_data (ID_search, description, screen_shot, folder, engine) VALUES ('{data['id']}', '{data['description']}', '{data['screen_shot']}', '{data['folder']}', '{data['engine']}' )")
@@ -378,19 +429,6 @@ class Tools:
     def sqliteSaveResToWeb(self, data):
         conn = self.db()
         c = conn.cursor()
-        
-        c.execute('''CREATE TABLE IF NOT EXISTS results_data_to_render
-                    (
-                        ID INTEGER PRIMARY KEY AUTOINCREMENT, 
-                        ID_search TEXT NOT NULL UNIQUE,
-                        title VARCHAR(255) NULL,                         
-                        description TEXT NULL,
-                        url TEXT NULL,                        
-                        folder NVARCHAR(100), 
-                        engine NCHAR(55), 
-                        amount_results INTEGER DEFAULT 0, 
-                        ct DATETIME DEFAULT CURRENT_TIMESTAMP                        
-                    )''')
         
         c.execute(f"INSERT INTO results_data_to_render (ID_search, title, description, folder, engine, amount_results) VALUES ( '{data['id']}', '{data['title']}', '{data['description']}', '{data['folder']}', '{data['engine']}', {data['total']} )")
         

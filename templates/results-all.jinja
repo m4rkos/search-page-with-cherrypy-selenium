@@ -31,14 +31,18 @@
                 <figure class="figure">
                     <img src="static/{{ item.img }}" class="figure-img img-fluid result-img-size rounded" alt="{{ item.name }}">
                     <figcaption class="figure-caption">
-                        <h4>{{ item.name }}</h4>
+                        <h4>{{ item.name|title }}</h4>
                         <article>
-                            Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
+                            {% if item.resume != None %}
+                                {{ item.resume[:600]|capitalize }} ...
+                            {% else %}
+                                Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
                             Rub face on owner my left donut is missing, as is my right please let me outside pouty face yay! wait, 
                             it’s cold out please let me inside pouty face oh, thank you rub against mommy’s leg oh it looks so nice out, 
                             please let me outside again the neighbor cat was mean to me please let me back inside destroy house in 5 seconds. 
                             Sleep on keyboard i’m so hungry i’m so hungry but ew not for that scratch leg; meow for can opener to feed me present belly, 
                             scratch hand when stroked play riveting piece on synthesizer keyboard. Burrow under covers.
+                            {% endif %}                            
                         </article>
                         <p class="text-right">{{ item.ct }}</p>
                     </figcaption>
@@ -52,14 +56,18 @@
                     <figure class="figure">
                         <img src="static/{{ item.img }}" class="figure-img img-fluid rounded" alt="{{ item.name }}">
                         <figcaption class="figure-caption">
-                            <h4>{{ item.name }}</h4>
+                            <h4>{{ item.name|title }}</h4>
                             <article>
-                                Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
+                                {% if item.resume != None %}
+                                    {{ item.resume[:300]|capitalize }} ...
+                                {% else %}
+                                    Cat ipsum dolor sit amet, ignore the squirrels, you’ll never catch them anyway. 
                                 Rub face on owner my left donut is missing, as is my right please let me outside pouty face yay! wait, 
                                 it’s cold out please let me inside pouty face oh, thank you rub against mommy’s leg oh it looks so nice out, 
                                 please let me outside again the neighbor cat was mean to me please let me back inside destroy house in 5 seconds. 
                                 Sleep on keyboard i’m so hungry i’m so hungry but ew not for that scratch leg; meow for can opener to feed me present belly, 
                                 scratch hand when stroked play riveting piece on synthesizer keyboard. Burrow under covers.
+                                {% endif %}                            
                             </article>
                             <p class="text-right">{{ item.ct }}</p>
                         </figcaption>

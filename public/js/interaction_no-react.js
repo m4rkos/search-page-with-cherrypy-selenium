@@ -6,7 +6,10 @@ $(document).ready(function() {
             <img src="static/img/lSUb1T4YW1td0UskwsGZ1w.gif" width="130" height="131">
             <br>
             <p class="t-center">searching ...</p>`).show();
-        $.post("/generator", {"search_query": $("input[name='search_query']").val()})
+        $.post("/generator", {
+            "type": 'browser',
+            "search_query": $("input[name='search_query']").val()
+        })
         .done(function(string) {
             $("#the-string").html(`<h3>Ok <span id="search-name"></span></h3>`);
             $("span#search-name").text(string);

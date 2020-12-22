@@ -10,10 +10,12 @@ from tools import Tools
 from jinja2 import Environment, FileSystemLoader
 env = Environment(loader=FileSystemLoader('templates'))
 
+template_ext = 'jinja'
+
 class StringGenerator(object):
     @cherrypy.expose
     def index(self, report='y'):
-        tmpl = env.get_template('index.html')
+        tmpl = env.get_template(f'index.{template_ext}')
         msg = None
 
         t = Tools()
@@ -33,7 +35,7 @@ class StringGenerator(object):
         y = datetime.datetime.now()
         t = Tools()
         if(int(id) > 0):
-            tmpl = env.get_template('results.html')
+            tmpl = env.get_template(f'results.{template_ext}')
             
             r = t.select_search(id)
 
@@ -44,11 +46,11 @@ class StringGenerator(object):
             banner = []
 
             i = 0
-            while i < r[7]:
-                images.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')
+            while i < r[8]:
+                images.insert(i, f'data/{r[3]}/images/{r[7]}/{r[3]}_{i}.jpg')
 
-                if i < 5:
-                    banner.insert(i, f'data/{r[3]}/images/{r[6]}/{r[3]}_{i}.jpg')                                
+                if i < 6:
+                    banner.insert(i, f'data/{r[3]}/images/{r[7]}/{r[3]}_{i}.jpg')                                
 
                 i += 1
                 pass        
@@ -58,9 +60,10 @@ class StringGenerator(object):
                 'id':r[1],
                 'banner': banner,
                 'result': images,
-                'path': r[5],
+                'path': r[6],
                 'name': r[3],
-                'ct': r[8]
+                'ct': r[9],
+                'resume': r[4]
             }
 
             return tmpl.render(
@@ -72,7 +75,7 @@ class StringGenerator(object):
             )
 
         else:
-            tmpl = env.get_template('results-all.html')
+            tmpl = env.get_template(f'results-all.{template_ext}')
             r = t.select_search(id)
 
             if(r == None):
@@ -86,8 +89,9 @@ class StringGenerator(object):
                 data.insert(i, {
                     'id': r[i][0],
                     'name': r[i][2],
-                    'img': f'data/{r[i][3]}/images/{r[i][6]}/{r[i][3]}_0.jpg',
-                    'ct': r[i][8]
+                    'img': f'data/{r[i][3]}/images/{r[i][7]}/{r[i][3]}_0.jpg',
+                    'ct': r[i][9],
+                    'resume': r[i][4]
                 })
 
                 i += 1
@@ -104,7 +108,7 @@ class StringGenerator(object):
 
     @cherrypy.expose
     def drag(self, length=0):
-        return open('./templates/drag-and-drop.html')
+        return open(f'./templates/drag-and-drop.{template_ext}')
 
 
 @cherrypy.expose
@@ -124,15 +128,18 @@ class StringGeneratorWebService(object):
         else:
             return cherrypy.session['mystring']
 
-    def POST(self, search_query):                
+    def POST(self, type, search_query):                
         
-        t = Tools()        
-        #t.mainContent(search_query)
-        ret = t.mainImages(search_query)
-        
-        cherrypy.session['mystring'] = ret
-        return ret
+        if(type == 'browser'):
+            t = Tools()        
+            #t.mainContent(search_query)
+            ret = t.mainImages(search_query)
+            
+            cherrypy.session['mystring'] = ret
+            return ret
 
+        else:
+            return None
 
 
     # def PUT(self, another_string):
