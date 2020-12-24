@@ -1,5 +1,6 @@
 # Search page
-## With cherryPy and Jinja2
+## With selenium, cherryPy and Jinja2
+#### By <b>Marcos Eduardo</b>
 <br> 
 
 ### Instalation & Requirements
@@ -13,7 +14,7 @@ Python download:
 https://www.python.org/downloads/
 
 exec
-`pip install -r requirements.txt`
+`pip install -r _install/requirements.txt`
 
 ### Usage
 

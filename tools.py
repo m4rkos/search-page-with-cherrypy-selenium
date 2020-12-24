@@ -56,10 +56,16 @@ class Tools:
             'https://duckduckgo.com/?q=%s&t=h_&ia=web&kp=-2'           
         ]
         self.downloadImages(url[1], 'd', name, idf)
-
+        
         resume = self.searchResume(name, url[2])
+
         if(resume != ''):
             self.update_search_resume(idf, resume, 'resume')
+            pass
+        else:
+            print(f'no resume to: {name}')
+            pass
+        
         
         return f"Done: {some_string}"
     
@@ -193,12 +199,16 @@ class Tools:
         browser_core.minimize_window()
 
         browser_core.get(url % search)
-        
-        res_items = browser_core.find_element_by_css_selector('.module-slot div.module__body.js-about-item .module__text').text
+        try:
+            res_items = browser_core.find_element_by_css_selector('.module-slot div.module__body.js-about-item .module__text').text
 
-        browser_core.quit() # -- Close window
-        return res_items
-        
+            browser_core.quit() # -- Close window
+            return res_items
+
+        except:
+            browser_core.quit() # -- Close window
+            return None
+            
 
 
     def downloadImages(self, url, t, name, idf):

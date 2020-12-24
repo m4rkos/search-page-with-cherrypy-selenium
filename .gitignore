@@ -3,3 +3,4 @@ db/*
 .vscode
 __pycache__
 old
+geckodriver.log

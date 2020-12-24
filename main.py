@@ -106,6 +106,7 @@ class StringGenerator(object):
                 data=data
             )
 
+    # Test to the future...
     @cherrypy.expose
     def drag(self, length=0):
         return open(f'./templates/drag-and-drop.{template_ext}')
